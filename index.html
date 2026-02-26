@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+      body{
+        background-color: rgb(238, 219, 194);
+      }
+
+      .card:hover{
+        background: rgb(233, 174, 156);
+        transform: scale(1);
+      }
+    </style>
+</head>
+<body>
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg bg-body-teritary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="images (1).jpg" alt="logo" width="80"/></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#destination">Destination</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#hotels">Hotels</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact us">Contact us</a>
+        <li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <!--carousel-->
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+   
+
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="download (1).jpg" class="d-block w-100" alt="Taj mahal" width="800px">
+    </div>
+     <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="download (5).jpg" class="d-block w-100" alt="swizterland" width="800px">
+    </div>
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="download (2).jpg" class="d-block w-100" alt="australia" width="800px">
+    </div>
+    <div class="carousel-item">
+      <img src="download (3).jpg" class="d-block w-100" alt="paris" width="800px">
+    </div>
+    <div class="carousel-item">
+      <img src="download (4).jpg" class="d-block w-100" alt="itali" width="800px">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--Main Container-->
+<div class="container">
+     <h1 class="text p-3 mb-3 mt-3">Tour World Today!</h1>
+
+     <div class="w-100 bg-dark-subtle p-5 mb-5 ">
+        <p> <b>Our Journey</b><br>
+What started as a humble beginning with just a couple of second-hand cars has grown into a trusted name in the tours and travel industry. With passion, dedication, and a commitment to customer satisfaction, we expanded our fleet to include 10 to 15 vehicles — ranging from comfortable cars to spacious mini buses and full-size buses. Today, we proudly serve travelers with reliable transport solutions and unforgettable travel experiences across multiple destinations.
+<br>
+<br>
+Explore our trip
+Experience the World with Confidence
+From breathtaking beaches in Thailand to cultural treasures in Vietnam, our curated trips offer unforgettable experiences across the globe. Whether you're seeking luxury, adventure, or a mix of both — we’ve got something for every traveler.
+<br>
+Expert-guided tours with local insights<br>
+Flexible booking and secure payment options<br>
+secure and flexible payment options<br>
+view all service
+</p>
+<button type="button" class="btn btn-primary btn-lg">BOOK YOUR TRIP NOW</button>
+</div>
+
+    <div class="container">
+  <h2 id="destination" class="fs-1 p-5 mt-5 text-center">POPULAR DESTINATIONS</h2>
+  <div class="row">
+    <!-- Card 1 -->
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem;" >
+        <img src="download (7).jpg" class="card-img-top" alt="Indonesia">
+        <div class="card-body">
+          <h5 class="card-title"><b>Indonesia</b></h5>
+          <p class="card-text"> Indonesia is the world's largest archipelagic state, comprising over 17,000 islands between Southeast Asia and Australia. It is the fourth most populous country, with a rich, diverse culture, and features significant biodiversity, active volcanoes, and a major tropical rainforest. Jakarta is the current capital, situated on the main island of Java.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+     </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem;">
+        <img src="download (9).jpg" class="card-img-top" alt="Thailand">
+        <div class="card-body">
+          <h5 class="card-title"><b>Thailand</b></h5>
+          <p class="card-text">Thailand, officially the Kingdom of Thailand and formerly Siam, is a Southeast Asian nation renowned for its "Land of Smiles" culture, Buddhism, tropical beaches, and vibrant street life. Situated in the heart of mainland Southeast Asia, its capital is Bangkok, and it is a constitutional monarchy with a population exceeding 70 million</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem;">
+        <img src="download (8).jpg" class="card-img-top" alt="Thailand">
+        <div class="card-body">
+          <h5 class="card-title"><b>Maldives</b></h5>
+          <p class="card-text"> The Maldives is an independent island country in the Indian Ocean, South Asia, renowned as a premier,192-island tropical paradise featuring white sand beaches, turquoise waters, and vibrant coral reefs.<br> As the world's lowest-lying nation, it offers luxurious,.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem;">
+        <img src="download (6).jpg" class="card-img-top" alt="Thailand">
+        <div class="card-body">
+          <h5 class="card-title"><b>Dubai</b></h5>
+          <p class="card-text">Dubai is the largest, most populous city in the United Arab Emirates (UAE) and a global hub known for its ultramodern architecture, luxury shopping, and vibrant nightlife. Located on the Persian Gulf, this cosmopolitan city is characterized by iconic landmarks like the Burj Khalifa, artificial islands, and a diverse, multicultural population</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+    <!-- Card 5 -->
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem;">
+        <img src="download (10).jpg" class="card-img-top" alt="Thailand">
+        <div class="card-body">
+          <h5 class="card-title"><b>Veitnam</b></h5>
+          <p class="card-text">Vietnam, officially the Socialist Republic of Vietnam, is a long, S-shaped country in Southeast Asia known for its stunning natural landscapes, rich history, and rapid economic growth. Bordered by China, Laos, Cambodia, and the South China Sea, <br>it features mountainous regions the Red River Delta in the north, and the Mekong Delta in the south..</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+<!--About-->
+<h2 id="about" class="fs-1 p-5 mt-5 text-center">ABOUT</h2>
+<div class="row">
+
+  <!--rate 1-->
+  <div class="col-6">
+    <div class="bg-secondary text-white p-5 mt-5 mb-5">
+      <h2>Rates</h2>
+      <p>Tour World Today! is a small family-run company located in bengaluru. We believe in the know-how and experience of the people who live and work locally. That’s why we don’t make our adventure packages ourselves. We get them from the most qualified: the locals.
+       <br>
+In short: we exist to put you in touch with reliable local travel companies so that you can get the best possible adventure experience. We also provide travel guarantees, insurance, and reliable payment options.
+</p>
+    </div>
+ </div>
+
+ <!--rate 2-->
+  <div class="col-6">
+    <div class="bg-dark text-white p-5 mt-5 mb-5">
+      <h2>Fees</h2>
+      <p>We offer a small, carefully curated selection of destinations and adventures. Each one is handpicked in collaboration with local companies that we know and trust to ensure exceptional quality.<br> We strive to have a personal relationship with every agent, hotel manager, guide, and driver that you will meet on your adventure to ensure that every part of your journey is handled with care and are creating a meaningful and seamless travel experiences.</p>
+      </div>
+</div>
+
+<!--rate 3-->
+<div class="col-6">
+    <div class="bg-dark text-white p-5 mt-5 mb-5">
+      <h2>Popular sites</h2>
+      <p>Tour World Today! is proud to be awarded the Travelife Partner level, an international sustainability certification for the travel sector. <br>Recognized by over 35 travel associations worldwide, Travelife reflects our commitment to Corporate Social Responsibility. We comply with over 100 sustainability criteria covering office management, product offerings, business partners, and customer information, ensuring our efforts align with global standards for people, planet, and progress.</p>
+  </div>
+  </div>
+
+  <!--rate 4-->
+ <div class="col-6">
+    <div class="bg-secondary text-white p-5 mt-5 mb-5">
+      <h2>Features</h2>
+      <p>Our Commitment to Sustainable Travel<br>
+From partnering with local businesses to promoting responsible tourism, we prioritize environmental conservation, cultural preservation, and community empowerment.
+<br>
+We collaborate with organizations like Travelife, Moshi Kids Centre, and Zara Charity to support education, fair working conditions, and initiatives that protect our planet for future generations.
+Discover how we travel responsibly and how you can join us in making a difference.
+</p>
+</div>
+</div>
+<!--contact us-->
+<h2 id="contact us" class="fs-1 p-5 mt-5 text-center">CONTACT US</h2>
+
+<div class="w-100 bg-dark-subtle p-5 mb-5 ">
+        <p><b>Join Us on Our Sustainable Journey,</b><br>
+          <br>
+By choosing World Adventure Tours, you are supporting a travel company that prioritizes sustainability, ethical practices, and community support. Together, we can make a difference and ensure that future generations can enjoy the beauty and diversity of our world.</p>
+<button type="button" class="btn btn-primary btn-lg"><a href="#mailt to:vijigowda1003@gmail.com" class="text-white text-decoration-none">Contact Us For More information</a></button>
+</div>
+
+<h2 id="hotels" class="fs-1 p-5 mt-5 text-center">RELAX IN BEAUTIFUL WORLD</h2>
+<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEBUTExIVFRUVFhYWFxUYGBcXGBcVGBgYGBYYFRUYHiggGR4lHRgWITIhJSkrLi4uGB8zODMtNygtLisBCgoKDg0OGxAQGy0lICYvMC0vKy0uKzArLzArLTIrLTUtLy0tLS8tKy0tLy0tLy8tLS0rLy0tLS0tLy8tLS0tLf/AABEIALcBEwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAADAAIEBQYBB//EAEcQAAIBAgQDBgIGCAQDCAMAAAECEQADBBIhMQUiQQYTMlFhcUKBFCNSkaHRByQzQ2KxwfA0RHLhFRbxU2NzgpKissIlVHT/xAAaAQACAwEBAAAAAAAAAAAAAAABAgADBAUG/8QAMhEAAgIBAgMGBQMEAwAAAAAAAAECEQMhMQQSQRNRYXGx8CKBkcHRMqHhBRVC8RRicv/aAAwDAQACEQMRAD8A1rigsKkOKEwrso4zAMKGVqSaYwpkxKIxWmlakFa4UprBRHy0stHy1zLRsWgOWllo2WuZaNkoFlrmWjZaWWpYKA5a5lo2Wllo2CgOWllo2WllqWCgWWu5aLlroWpZKBZaWWjZaWWpZKA5a5lo5WuZaNgoDlrmWjZa4VqWCgBWmkVIK0wrRsFACtNK0crTStGxaAFaYVqQVphWjYrRHK00rRytMIoitAopRRCKUURRkUqfFdqEo1LrQitWFzD0FsOa56kjruLIRWmlalG2aYbdNYjRHK03LUgpXMtNYtEfLSy0fJXMlGwUBy1zLRstLLRslActcy0fLSy1LBQDLSy0fLSyUbBQDJXclHCV3JQslAMlLLUgrXMtGyUAy0stHy0slSwUAy0stSO7ppWpZKAZa5lo+WuFKNgojlaaVqQVppWjYrRHK0wrUkrTCtGxaI5WmFakFaaVprFaIxWmlaOVppWjYjRHK0stFK1yKNi0Dy0qJFKpZKN0Y864woxX0prJXIs7tERrOu1Na2PKpJWmPTpiNEM2Na5csCpRauiKfmYvKiuFuuG3VjkBprWBR5xeQgd1XBaqW1uuBYpuYXlInd0slS8tcNujzA5SLkpZak93XDbo8wOUABXaMUrmSpZKBEVzLRStUvF+IKly2A45Gz3dfDbIKS2umrg6+RMaaRySQKLXLSAp6mRNdy0bBQyKaVouWuZalkBRTStGy1wijYtAStNK0eKaVo2CgBWmlaOVppWmsVojlKGyVJK0NlopitEcrTCtSGWmEU1iNEcrTStHIppFGxWgMUqJlpVLFo3Yu04MKEHrveelcmjuWOYAimd0PanmKUDzqEBfRgab9FqQtOBo8zByoiHDxQmtn1qdrTSlMpAcSCUIpZalOtNyim5heUjG3SC0dh5UK7oCx0ABJPkBqaPMCgYvLmydYn5TFFyCsI/G2XFDElAZVrTIrCRakMpDGMzZsxgwIMetbtGkAjUET8qSGSM/0sMsco/qVHDaoZt0dQTSV1JIBkiJHUSJE+WlWcwtES7A3IHuY/nWG4s6tiXUEZWEm7yEGdMsDUwI/Hy12fHsClyzzrOUgg9RqAYNZfF8HKKSoB020kE7aVzeNm5SUfmdLgcaUXL5EzsdcBw+UZQUZhlECATI23mTrp+FX4Fec8Ju27eJVrhZFBMkZgesBsusTE16NYuK6hlIZTsQZB9iK28Ll5oU+hi4zD2eS11FFcii5a4RWmzJQIiqbtFiGVBlkZWRixlQQGByg7tPWAYE9YBunmNFLHoBEk+QkgfjVfxvCX/o95zltobaqbchyYecxygAEyBu2ij3rJxfEvEko7v0NfCcL2zd7Fbw/j6XLxHMqsiZQywe8zNmXSZ0a3tpo2uhi9rzGzmtMrBiQhnK0GTmBBJiekfOvQ+EYs3rS3CoXNOgMwASN4HlTcLxLyWnuDi+E7GmtiUVppWixXCK2WYaAFaYVqQVobLTWK0AZaGVqQVppWjYrRHK0wrUgrTCtGxWgGWlRctdo2LRritcy0bLSy1zLOxQHLSijZaWWpYKAia6CaJkpZKlkoaGpTXStZ/tLxsWGtpzTmV2iI7sE5h1MmNBAHqKjaWrCk3sXpWmd3T7V0G2LgMqVzA7SIkb0zhmJF6xbugQLiK8eWYAx7iYqcwKEbdUnaHid6zAW0GVgefNtEZgRGm/nWjK1m+3GLNm0LgUMUUkAzqWZFGg1O+3XbSq80nyOi3BFc6swd9CbZQzzEtnLS4JnZj05to6Dyrcdl+MG+mXu2BtgBm0yk7ecyYmIrG/SDcwwvMmRusDKCObXLJiQAd6g8IxF1Tyi6JyqzLmXMCCWJIPT269ay4ZPG2bM8Y5IJnpeP47asvkbMWABIAGk7bkVQYbji28Q9wtcYXYlCq6RopUos6CRrM1nXN9hmLhLjKoLXHDEAFumvQjp1o5K796gblltQCFBDaLHinbYVMvETu015CYuHx1TT2N3ieIWrtoZG1LKcpBBiazp4pZdXtIwLrvo2uonn8LwT56UHg1xDchbqsczNCjZWygCZnSN+tZXs4i/S7phcwza99nPXNCRyiYkE6GI0mqOd5G3Lddxo7NY+VR2vqGxOEZ7txsyhc7dTPiI2itFwfiqYWyUyAkc7NIXeIJEH0rJ8QuDPiJYGSRBzgRnGp00109Z3pl3GL9aArH6u0JyhuQd3B1bUnl/wDUZq6DlGmnXy8ivLKM7i1fz8zbX+1jDNAtjKmc7ty6a7jzFRG7UXGIAcDNbNwQg2AJ+IehrLPjTLxbI+pWJKrCBU25SCYHsJ9KfbxLsVgAZrLAS0woDg7EGTB5v4qLyZGv1P60IscE/wBK+l9V5l4vaW+Gw7AuRdeGDKsDK6jm05Rrv5Gplrit66+PFzErcVVfLaRSVtBHAALAaNGhWZJk1irxObBsRb5bjZRzkDnQnKQdSSdzXoGGwoCX7hxJuPdt3SLIiLYDDMOUCSCUXm5tfeqMrp6+O/mX4tlSrbbyMZiH5GYHYfz2MdKvuw/GHciycuREJBg5iS6wCZj4j0qDw6wpvZQmbMl3QywlUMaHTQx99S+FcPm2LiL3TstwIgCpcLIAxMhtYJUwJkxr0qzDnWNpk4jC8kGn8jV8Uxy2rPeaxynRS0gkToPMTvUixdV1DKZU6g+dZTiN25/wyz9YrLdLKYWGUroIMnKRJ+4e1F7NcYVENu9cRFTwZuVjJJOpPT261uxcYp5KexzMvAyhj5lqzUNA3/udBXCtVPEcZ3nd9y9tw2fJBUlryKSACXEgSCQBJ896n8KxXe2UuGJZQTGwOxG56zWqGeE5OKexkngnCKlJaMIVppWjkU0rV1lDRHK0wrUgrTCtGxWgGWlRstcqWCjWRXYp8VyK5tnWo4BXctOArlpwyhlMhgCCNiDqCKlkoblrhWixXctSyUAK15Txu+13EHvHzMrOqTAOVSR4VgHT0616vbvIzFQRIgxsd2XbfdTXhvHShxx0BPebkOfiUjUCPiGs6TruKqya6Gjh6i22bC3x9LuB7hyGZSbcxoFRcozE7sDHy39T9l+MjC2Wt3EzM1wtyQBqBoc2s6T8zWBwtzRxE897YsN7hBmd+mo6nTzo7Y0zAV5zMNhowXlMhvLr8qrpp3ZZJp3Gj0W725UCRZGwOtwbEwDAXzqs4/xw4jDXXygG0yJC8xJ7y3I13rEjFMfhMZUbVuhMQARAJb7uk71dd4zcPxWcD9ogI8UnvVJ0TWPTQ1J8zWrBj5U9vXxF3jNglz5pyoJYAMdH5tCd4nz1qtwmGZxBe4eWNCRv102NTcGgGBt6ATlOiso17wzDan3679a5wxoB+WtUVqzYtYJgjwpNTrqQTmg6rtEzGtFt8MQGSoO+p9d9qj4i495xbtAmTAC7k+Q/P+lbbh3Y8ph4N0te318A/gHWPX8KkYSnsCWaGOlIgcJwoRwYXURI8ht8qzfZ+RiLs5gNdD3ayADsF5nA8z4djvWo4cpW7lIIgkFTuGnUVmOBIBiLhCEAjU5AATlbUuddekb6zrFVwX6hs28SPj473Exm9Iyj406momJtib2u1iyTJ11+jzqNKPxIfXYnT/2Fv3iff7UO6Nb2/wDh7OwA6WPhNaVsvfcZXbk/472BSyASAV/wgMCT8A6HppUvB2AXs6fuLk/Vz1vbt8PsN/nXCTJ31wn2lPwH7/ejcPXmsbfsbnxMD4r2w/qaDej99GDS15rvXWJBxj5FwbaibryCwtyM1vxAb6dPWtlw0XnxJt97atoHxJIRCcxt3ESbhMiSDLAnUwYMGsRxIgWMJBURdueHM/W3tn2Pr91egYQN9Iuznj9fGsKsZlI5R4usE6+LzqnNv82W4/0ryXUtbPdYcNbsLJJXNcMbOwBA8hB2puC4dYKWw+rOinK1xjJIEwhbqZ6VXIp71/e2ASdBBU8o8vXz++i4ZZu4Vwq62bIzMYueImAv97nyqhx1LozpbdV79/sYyziCEC5Scrht9IggiOnv6VG4rhWvMrar7iZ/H0qNiEaLggHnOgaJ1Bmeh/KrHiWY2LHLmhk0zRHKdd9Y8quSrr6CznT29/Q0XZw4a8q27hfvFAENcZVcwMxRFIAk/D60bsYgBvgfDcgCTAEt02G1YxLjC6jbEGQdiIHSrrs7xE2rz3GICtdAubahlPNHSGA2q7h6x5FJsp4rmyY5QS2f8m9IrhFOF0GI6gMNxodqbhLququpBVlDA+YIkH7q7CkcFx1oaVppSpgVaRdfKpzk5CJ3J8q5UnPSqczByI0MVG4ji1s2muMQAo6mJb4V9yYHzqbFYb9JuJcC1bDQrS5H8SkZYO/U6egrnOdKzqQhzOjmO7aIyYlbfeBgo7tgAMuoQsTOnMQREmGG2oB+x3aSyuFCXrsNbYoGbYrqUAjaFgRHTrXmzGGDDaNfYtJBnzIB+VCxeMU2nyMdbiNoVA2IiT7fiaRSm5Gh4sahv4ntydoMIf8AM2vm4H86K3F7GUsl605AJCrcQknyGteEX77DvIJ0yR4dNv567058U/PqdAkcswTEx57mrPifd7r8lXLFd/u/x6Go7XYoQ92AuW4yELr4mZwQR4t4qgxHE7nesATHeWhGWfEhYiY6xv0qu41dJtXARoCkcp67xtNdcfrB0/zGH1j7Nl9Zn8f+tVQxqK197F88jlt73JmDcm206Tn6sN739/8ASmv4z/4l47HogFR8Dc5CACJDnZo/bnyPzolw8zf68T0P2B61d0+pT/m9O70CWbUgiAfqrY2GvN6mr66uXAYqdPrx/wDNI8Gv9apMGBqCvw2RsPTTWrq+Y4fidx9f5/xJ9jX+tV5Pv+A49H12/IPD/wCCt+oU7MNzd159T79d+tQ7bwgA6/3/AH71Nw7fqVo+ap9rq10/HqffruNIqrZoHy0/v7qztas2wfwI9A7CcGC2/pDDmeQnog0J92I+4DzrVgULsyv6lh//AAbf/wARU8itmNqMaRzMtym2zO8cwIFxLwG5Cv6n4T+BH3V5lwDL9KuHlmG+G5m2M855R7fFuNq9d4+QLSidTcWPxJryXgL/AKxcE9Dp32bZT+6jT18tI61myJc0q7jVjb5I33kXihHfYkEr82YfvE3A2/vzoVwgm7H/AOvZ6Ejw2ep9tqkY8nv8R4o9Cg/eJtOv3+vpQbp5ruuv0a2d9fDb6j2P3Uyfwr33Ar4359z7zpGp0/yZ/d/wNv5e1SOGE5rAObW08mB9u9E/ftUcgT0/wj9TtkfaicNyh8NGTwXI5n+3cmAfc70stn+PCRItWvl1ffH3/sh8XUjD4eWY/XXPE4HS3p6j+Gt1gMv0q7Hdz3mPGgYtOW0xk7AwRI6jL5GsHxRh9FsEEft38Khuifa2969Awat9JfxwbmMjRQsFLW0akTO+s5ugFUZfuy7G9F5LqvEdZH17+EE3E31PgXp02GlEwo5sIYWe7tiXP1ni6ffPzPlQ8OYvbgfWDYSdFjVvypYZIGEOVBCfGZuCG+Dz9fQml6/X0C9vmvX3+TBY1Oe8MoP1jaTE6DfyP+1Tccs4a1ygwUMToDHQzUTiSfXYgQv7R9J30A5vI/0ipGLScGminw6EwNPI+n5Vant7+4uVavy+/kAbxj5/y96g8VvFGG0Enf20H31PumHX3/L1qs7QLqn+tRoYJkHerYdPfv35iyWsvNenl7/Yk8L4vltXl1JuIiKUIkc0ux1mNCpidSK2vYPiLPbe20nIZDE6lWnKI9Mp69RXmuFBGoLeE7kkbN6+YFbX9F94s16TOi9I2J/OtWNtSS6GTPGLg21r+KPQhSIpy12K08xz+UHFKiRSocwOU00V57+k8/W2h5W2PTzPz6dK9DFec/pLb9ZQf9wDuB8Vz5+W1c6zqxVOzB4gRbP+lfX7R61UYQzbbcy6dUP2/l8quOIH6vz0X1+Enc1T4Uch1EZl8RUyYb5dTVsOvmNPovAkY0/tRA8ajZT9r8utK5vd06oPDPn6+lMxduQ/g1cTtvzafj1ptxDNzwauJ1G/Npr/AFpk/f0Fau9+v3/Jzi55LnrcQbe/mddqOf8AEH/+heg6WSP61C4pMN4dby7Rvzaeu/WNqMr/AF2/79/LpbFAZfc7w5uUaE8lz4f+/wBtD/L51Jc6tpPNiuh+yPWoPDAcqaoeQDps7lpMEHfT86OZ1P1f78+IdeVvu6/jRb+4tXLbu+5Y4Aanl6YcbDqoMSTV1iT/APj752+uPWPiXqm39zWewIh9Sm9kSIJ0TTT1iavrzTwy4R1uTIYKJnYMNthv5+VVZHt5jQW/l+RWj+o2tZ5U15jOt3q2p99vLSKh3GUWxIk9P61MOmAtEk+FdSxbWbvxHf8Al5aRVU2Zzbt2xmYgkCRrETqdKpW7NSdQVnqvYDE3XwS51hVJW2erWxsY8gZUHrl+Zvbd/MXA3Rgp9yqv/JhWU4fxq7awdq1bsqHS0q57l22qh4EnKpJIB84rO4Di3EMPiDcd0vK5m4me1zHKFBBBlSAojT09tEXGt19Uc2bfNon9Ga3tFbufSLbEzbIhR9lpGafcRr6ff51wPN9IuSHiNyiBfA0cw5j6eWx3rcr2kTGZLYttbuo2coSrcu2YMvqQNYNYngWFP0i4Qg23CXJ8DfEdB/8AbfpWaX6peRti7hC+/wAiFxIDv8ToDv8Auy37xOvX2/KmNu+n+WT4So8KdP6dKJxRUF7Ey+u5BzaDOs7esbR/Oo9+5bm7Fz/LoRoxi3Ca766R66709/CvwLXxvz7/ABCTzDU/4W55fYu/ftRuDM2bD6vr3o8SkftGInz9B0qKty3nA7zU4VsvJ8JV8xmf9enpvtROGXrQOFysTK3AnJBzFmk78sH3mKST8P2/9DpPTXu6r/r7/wBohcXn6HbktpfbxXE+wvWI/wDLW/wQH0xhFuTdxG05pOHsHXWAY/8AaB1rzni99Tgk7vMYvsDFtdTkBkA+kaz/ALeh8Oum5iAR3gDXLonKoAnDWj4t4B675tNqryfn7Dx0r5fck2mOfTNrnMKNJHr5+sedJVhcNAtABbniMvAafqvXz96cvd6fVMQZH1j/AGdSTvvEegqPYMWMN+x8OIEky3i/d6+I9R0OlV3r77iNfC/l6++hjeML+sYoQv7S5136c/l5e0UW8s4JdFO2hPLo0b/7+VB46363ihC/tbnXfmbxeX5VxnnBDlTppPL4vP8A3q9dPkDItX5P18hXD9Yu24/sa1W9o902/aW/U/Fv5D/epl66JXbcdffbWq3tO4yA6AhkIO5mHAn01/nVkHsLJay+XoRsI223hPQj4iP61s/0Wv8AW3R/ADvPxL+def4XEwwGb7QjXafX+Ktl+iu9+tuPOy3l9u35VrjuZMi+GvM9YWnUwNpQjjLeUtnXKN2zCB7mYFPZjokV2gWcSrqGVgynZlIIPsRoaVSyUaBeJ2iY723Mx4133jfevM+3XEhexJyg8qva5WXdWYAgn0IPoTGtZuzw/vDKhmnlKu2RCSNZZiBpr19qHxDHiyVViGnLAXmjcTJktMeg066CuZ2ytHQi97IvFLpjJBmAdSp+EjU7E1VWwYyxPMD8M6D/AHqz4hhy0lmRDlB8UxsNV8o9fkagXOGXyCUNtFaILMAT0JAiR91Xwz463RJNN9Qd2WDgASbgaOXXxfnXbwP1kiAzhgdNfEYjz5opcP4aLZP16bc0SObylxHnrFMu8PuMSBdLJqxMqzAjoACB/KmWeF7i2q6jMXLHlAOa4H6DTmn3iaclxu8kL+8usdV0DKAvvsaWD4NfhoMBWhQUMtOuoGgG+s/KlicFfIgi1rpyElxMahfSaftce1kt6HcMGCjlGioPhjlMkzT2V48GpF7qu9zYfdr8qbg+HX7d1bdtswyksDovtoCRuIijvw7Ftca13qxlzl9go8hpIpXmxrqgryY6zmD+D4rR3WYtplmPU7f0rYcBe2mEXve+csGIUAd2DqpBhwWYHT89KyN61eUIVuKVGWRPO+gzQ0HyOpaPWiX7GIJRhOhaVIEANOSQk7csmNjvWefERklVfMNeZJ7RcTYWctq5dIk5AZMICcsESCRpWn4ZirS2bd2yqW7otG4oFuwX5Qc5R2GcAFXklvhPlWOPB76lrneAsQQoKkgsdemg0B1/CpfBLt5couQAMPiLYOZQJuG5Eyp/7TeQNKCnCUdXXkFzaSSV+ZoLva6+ys5u5l0DMRYIEzGsaf36VDu9pCLeclcskTlsSToSAwWfLrVFcwjDDPatqzM7Kw1XLAmZuQF+WtP4pwm5csixaWebx7KOUFizbtM7gRr6Uk5Y9FF7v9gKU+qX8mj4FxW1c5rmZQ45UtLbV3grLZgVnT339qk8SxVlsvdpdtxpuYKy+694czQU108J2msUMDeYIFysbad3FpiRIXLJmIkTO3z1px4bdT6PbZ8rWySVLaZSSxg6eESNhNLGcVab3+Y7l1a+mgLEvcL3WVWh1yjmUScymYJ08O586kAXGa5yvBw62RzJOcBRqP8AynX8KbxHD3kZcly0FkDmk5iT1MHTXpRDfuq6BFQL8WoJbX4ZOs+lP2qrRot5o29yXZwT5gSG5MM1s86HnKkfPx7+lFwOEZDhpFz6oOzRcQ7sSAdOY+mlWZ41iLdsTNgZSxAQZNCRzEycxj1mKrTxtUc5rXeMRmg8gPLPLkEa7yQZjpVPbXp796jXFbv3p4eA21wB72HNuGBFw3BmuoJJC21WY0BmYg/iBW3wnCu7vowtgkXMwJuLJi0mHLAT1EgD1+VU/CO0eHtkm5hstxkBiC6CdQGkyNx7Vbt2wZkJKqbi6qcgaJOwO2w9oiTQlmXUjlFbMHicE6LpatwoYzmU6XM2U6PqCeUebbVX4LFO621Ni0AjXYfMh0dpzJLyNffb5Ue328V7f6xbtLmOU8pM23BzFdOrQ8e/kDUT/i2EwluyptqxuqpfKV5GIH2hDHTUAgdZ1pO1p7EbjKNOVe/GzMdrHYY+/ltyjsDmEahlnXWTM9POotrFD6P3bWmnyGWBrI61J7TXLdy7dupqOUhVAMQApDAbbT8/Q1U2bMqCRbUk6IXExoSdBvB2rXjyxcVr6lc3Fvcm3LZIX6snY7iBvpv7ffUTi+ELjUEDcnllQswD98j3qaLqWxAWcwWDt4vLz1n+9aFjLF18wtqrKCuYMVViSJIBaAYiJ03Xz0mPiIy2B1epl7SAQZP3jqQfKrvsVxpcHiwzRlcC3J0ADXEzMT0AUMflT2wCrvZGhjaddo9fKuXMFblSbA6xK+UdIrWsiE7GT3PQuO9rMFdw9xVxcFdYRwjPABhSykEEHyiRHQ15biL6Fe6tXCqO3hdwF3JUs2gEApuNyTUvFopvLaazJyoqqU1EkgRpoK3XCu6MWrtnDELpOS3IKqDzKVAmJ28to1qrPxKxJPewY+GUpctlBguwt/u1nG20/hV7pA16ELFKvSML217pFtrh7ZW2AgK3FAheUQoXl226bVysq47xRHw8b3PN7ju10vcW+tvcGcqaEMpIiV0IO5J+VVj8SNy6tqy5UFiCwMwh0jm8MRoCQObby9MwqXL9vu0QNbCrmt3EUAzDLzm3uNQdPKouL4Dh1E3bduwSApNkLatldILlGzP5AaDU0nw81S+S/wB7lrwurRg8aLdwlhbaLlyGZm5gBk2MEDSYnTm6xUy3lvHIVPdpoDJUgBdI5SJjWIAMxp01eG7I2L7BguGMlhmREIHdnLqAqiddJmQN6s7nA7akk4tCweDoFLkgKzHmJCquk66rGnRFKV0ovTva/IOVroeZ4q0kMVOwXmM65isHQbyRtr/QuGeyLYCK3fNo3mAdR8W4kfDtW/xfZjBqvevcY6spyToVcrklAygByABA2Gu9R73CMHbFxA7szMxEXJdQApOVciqdQJk79coq6M41Ul+/4sbs5PoeeNeYLmbMwDFYB2XqSQ3nAj86bfuLY0yFmICqTmOVm05YbpJ8QO/yr01sHZYOjytpLajJ3wzDlbKXJIAIljlCuogGREVTXuzDXbnLh2ykBiUxNkhQoALqDayknmGWQP6WrJjvZ/X+Ct4p+0UuHwhDT3uckNDCeWDBaQNiARodD+ITxdFKhcxLZs5DEucpZJ6R9rXTQ9RWsudlEuo+e5fthBNkFs5iSWJtpIIGg0PSOk1AxfY23cVO5vSkznIYLm1B52ZIMjwwACBJrNJKbtt+Xug8jooMNew9t4QKQ+pbVSRDSLkEkCREeR+dQcZfa473GICW1CMFlTBB0Gk7A6HQzNadexql7dpblxmByHuxmVZBXVziANgZnaTp5w+N9hr6qDZuO9osoa4UKqGMRAuNzKIOomNfOKaOJPvfiSSfUpcJjrxUzmiA7S5BEGOmuaATEda0Nl89jMqKUggzclpB1OUrsQJ0Pl51VcQ7M4i3bW5ilK2yYzWRnLZlzbEcoOXciNB50uz/AGPxbXG+jurW3LBWa5kBticxdAc+2UagTr03sjjvV178QJOJPx2H7tHkF8ytDC6AU1VWlY5onNl00B6a0/Bm4oVO+PME5SssdRJL6RMgx61qP+Wpw6lhcQpkZrrO5ts0J3mRM0tEGGIET1Iiq6z2fuXAO9W2ELERF9dFMNzuq21JiZzVVkSuvfoPy3uVOLxtm2r2w2pYqxIyszzp1JiDM9CR51CsP37F9MwELcMkMssGgk76xPQqNajcY7OMl8KMJeZYnvBzAMQWgZB6gZsxjUzpFSUwl2yuRbN0s7qmQliEAAJOd8sB2J3IgAHSda5Yly3erAot6ghjLNtSpZyubmUheWWBhZ3EaiNdat8H2lwmGQmxhuYfvrihnVmP7saqB0BAH84zfEOD31BS5hy1wkHlZnZYaCQ1kG0FMrJYiOWPU1qxlQswClT1uPn5W1OqCQYPU7g71coUha72WN7tMt5jqpAkzkClhlcAtHpGnp6zUXiuLs3iGW5cUxsEQACVzzrpuYmNYqLg7VlioBt2jdflAuOzGWKgiVAyyCNN46GZnWezqXjltXA5tsQyqUU2yxGhLsB8Da9T+C8sYy2f0IpPoQLbYi4VV7qEkZVU6MdQJmI0gk/6TV9gMYtnDtZfK14vOYZiGB0Kso5YHSNTHpUXG8COGZe9u27ZuEKoVy91pMH9mNBqATIHvUDEG2yuAwMHlnMhhlJJOm8xB6FRuNKSUI7Vp4IlvZ7ixtk37uS21siYjYgHLBjWCZ1BkaRsaNc4XFy0jEqo1jlUnKpIIy6bpMdPSs7gsdZtuGMKCqyIzECYIAmZ0JIkDb0Ikrxy3buFszyYBFxQ4VZLnK2bNJJzT5kj+Ki8MunQlIl4vB2VuFTiHU6nKRoCTCknQnURHoPnNweDC2GLtp3kRBbNljNmEySSFIA3A6g6Z7id8XgtwKkzmyg5gAoE6kQdCgIOpJX1FWdnjiQLbW3Eo7hVOgEMCc0yeVTCwBLempeKXKv4JylnYWypW4bpZA2htg6AtC6GIPKDOvvVheuYdHQXCWYLAaRHUiJ23O33b1hL/HFIORWUnMZbWd42MATGkQCvltJwmLW9bAD92c6K5OULDAnlMSIyMfcr5VP+M1q9AqVbG9bF2RyZiwBETlZQfQ9diZ9PkVjMfblWt8zD4SEkqAC2SRv940rPXLfdgHurZ0DZvIZkAZmUyhGZvnHpVfibistwEwwBIIaRJIEZtyDGgIBM+4qum9UxnOWxo73FWcg27bpJYFiADcA0zLAHXTbX5TVbav8AeXF7sjNbKlpty0azr1mVEe+hBkROFcRdLVsAAsQ51PhBLEQCdZOuxiB8gY4pn7y0cpuHMVXUC2FAZNTzMSxgSICeuiqHxtCPUt8Tew6MUZ1BXSDlXLGywGgRt8qVV/0e2dXFtW00Nokx0JIuDcQdutKilj8QU+89xsCRzEHlE+rfEdttvxqvs4/D2rjHKVJOsAaxIG1HvHlOXeKw+OZ85zHrXSy8LH/Ewf3DJHc2VjilpmbOTBMKVZxy7682h9qlXkwLgh1VpEEsoYnbcnU7D7hXnodhBBnWetOuYxv7NZ/+LJPQb+6vqj0GxhcFkNtCAp3HN+Hl8qA3BMLoBcgfZDGD15p/OsThb53/AK1KbFP9o/fQlw81qPD+rKqo2dzheHuIhLTEMpLPmUtGsMdPWR5+tCHCiGWXBleZwSTKkZQA2aJkyesVl7WPb7VH/wCINPi/rVMsErTrbxL4/wBVhVM0GO4RdeWt3DbOminVhoCCQF/GRptUXg/AHti2r2gzAmb2gIBZiByMIifI9darbXFHAOs0bD8baBLH7zTRU1CkiP8AqOJy1stX4Tfz82QrJ2YyFObowOvMdNj6VX3+yjI4cXSQpBVBZLKAAIUhSJGh6zrvtRLfGXmQZ+dF/wCYnAM7/ePxquKcdl6Fz4/E92SOG2Lvc9yzk5BlDNauWc2mXxZzzGBzKPiEU18JixZycjnTQswVRpm1ILHSep3qBiOMi4QWglTodiNQdxH2QfkKl2+0TIokH+f4mhbe9jri8XRkXCYC+4dbiDOwgmRAIYEBM4mIUExMnzoqWMUuGZDahgMoVGQhlPjBcQ0kSJIHyqdhu0SspKmT9nX+X5V0cfMAkDXpVjjPQC4rC+pWtir/ACSMjQM6MbhDDdg8HKTsAJ08ugceIXVZnm0zmAwVbzMFI0bIFkGR10HrVlc44RByiD11oS9pFJjIJ9x/Kkm5RfxDxz4mtGiPd4mwfNKhoZSRlRWcKS/ikZdAJUbsokdW2eOW7Tc9pLVtsqpcUq7EidWKIIgA6QQC1Tzx+2GykQfWfKegpuM4lh3RrdwSrCCJ3BqdpL2gqeJ9f3K/tFxSwilxdQFgAqsjZVnKhZQq6QbgJPuOtVY7IcMbxuNBrmYAFkAlwAxUTm3bXXXer7G2cNcEXBAgxlULo3U7z7+pqDZ4HggRGUIZzArbbODEhw1skg+hp+Zci116716g54qXT9rKg9i8D3VsCDlfN3ls96ArpnGmblnKo0/hgmYqLhP0f8PeybihmUZViSjkqOdntlJkNmkAxyjTqdU/DcEXgWYGgzqzLpE6hSDuo09jU18DhnEZzGXLGZ9tupoPNpV/v9xuWLMHjv0W2GdjHdhFXw8ywAZJ215STv0quwf6NTLGzjXGpRssrJQlSDBMwQR8q9IwHArFoMEcFGJORsjKCd4kT+NMulUXM4CS4UQQJ2lidtCT/vUU5bJsHZx3MDe/R7eFk20vLJbMXYsWPhhRpCryk+ckTMVVt2BxozQ1gls0yqliWDSQ+WU8R0WK9Zv4W4UPdOubSCwLKdQTosbiRINQ/o2OWOSy/wBoy6awNpB6z5xPpTdrKrvbp7X3FeNRfU8pPY3GJmm3Zk5oWE8JLMxnJCqNNNv6pezt0qMuDW4pVS5VQVzjMOU2n10I+bHQV6fbXGG7bd8JBQkSt1DytAOhgnz6bdabjOKYq0AWwzsCrluVdCmwAtu3jIkAZiJ1jerO3fgR4lR53guGW1kHA3VggEZLoUO3KD49IBYzEajTTSJfwmCKvZtYW5bLBhbum4HmTlEh12JgCAN5mK9Hs8du50zIwDKSbbKpjQmc6vIAAOjKJiNyKncHv23wQvvbKpkLN3igtAJkn4jtp1Mjeh2vUaePl+FnmP8AweyDatK6oDYW61118LardjKCxOcrptrUftXwi2edcQmJLslu2UzCLgWcr2zGTY7sd/evVsHZwl0P3Nq2CBBZLYUwTsGA1BjaoHFex9i4hCShJQ80sOU9JBKmCRPrrVacVK3oxOz00PMbOAdVCvhsQrKACMrnUaHUff8AOu16bhOyVtVhkzGWJK92oOZidFyab0qjWK92J2TLPE3gizln51l+I4pLh8EH3rtKu80eZmysZgp+L7x+VdN62RqG+4fnXaVIUvUciJ8Jb5j8jRgRtmB+/wDqK7SqS0ViR1dCGHPQfjQL2ZdDSpVTFJ6j5o8i0BC6Yrq3xXaVK0inmaD2L+uhNEv4g5aVKqJ70X45PlsD9I00rlvH3NACCPI7VylSximyxTdF8l7kEAA+1BOL+1E/OuUq38qS0Ecm2RMbeDEESI9dPuqvuuC0ktPvXaVYcsI3aLo5JbMNZxjAghz/AH6US/jCx5oP4UqVIooDySS3C3cSMsLIri4xtIIPuKVKly/DEbHJyY84xo1HzBqVhsWchhmnyNcpVmcVVl8cklLcdZvt5EfMfhFPvYlyDsdGAJ3GbRgJ6EaUqVVLR6GhzkluVNu/csqcoCDyWAJJ8h86LZ7QvoM5/H+hpUq0dnFxtmZcVlUqUmTsP2iuZCe8bQjqfzqUnapwBDz5zOn86VKg8UaLVx2ZOrJ9jtQ5GonSdh+Qon/NYG6jb7PpP2qVKhCNo0ZOLyxqmOwnaq25AyrrP2ht8qkrx1Ynu5EToemvmPSlSpJxpluDi8k1qI9obX/Zt+FcpUqr5jR20j//2Q==" class="d-block w-78" alt="hotels" >
+</div>
+<!--End of Container-->
+
+<footer class="bg-dark mt-5 p-5 text-white text-center">
+  <p>&copy; Tour World Today!</p>
+  <p><a href="#mailt to:vijigowda1003@gmail.com" class="text-white">Email Us</a></p>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
